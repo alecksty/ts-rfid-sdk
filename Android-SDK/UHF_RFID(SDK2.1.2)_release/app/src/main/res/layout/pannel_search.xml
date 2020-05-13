@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~
+  ~        感谢所有为此代源代码付出辛勤劳动的人,你的努力得到了大家的认可!
+  ~ 感谢所有为此提供帮助和建议的个人,或公司,组织.此代码对本公司和客户都非常重要.
+  ~ 本代码制作权属于深圳市探索智能科技有限公司,使用权属于经过本公司许可的客户.
+  ~ 有任何技术问题可以联系本公司,本公司对此代码享有最终解释权和修改权.
+  ~ 未经本公司许可,任何人或公司不得传播,赠送,以及引用或修改本源码代码,
+  ~ 如果违反,即属于侵犯知识产权行为,必将受到法律的严惩!保护知识产权是每个公民的义务!
+  ~ 注明:
+  ~        本代码涉及的任何安卓的接口和代码库版权和解释权属于谷歌公司.
+  ~        本代码涉及的任何珠海炬力方案的蓝牙开发包属于版权属于珠海炬力公司.
+  ~
+  ~                                                                                                  深圳市探索智能科技有限公司
+  ~                                                                                                                    施探宇
+  ~                                                                                                               日期:$date.
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <!--搜索歌曲-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dim_search_bar_height"
+        android:layout_weight="1"
+        android:background="@drawable/sel_search_text"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <!-- 搜索图标-->
+
+        <ImageView
+            android:layout_width="@dimen/dim_search_icon_size"
+            android:layout_height="@dimen/dim_search_icon_size"
+            android:padding="@dimen/dim_search_icon_padding"
+            android:src="@drawable/ic_action_search"
+            android:contentDescription="TODO"/>
+
+        <!--搜索文字-->
+
+        <EditText
+            android:id="@+id/edit_search_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:focusable="true"
+            android:gravity="center"
+            android:focusableInTouchMode="true"
+            android:hint="@string/str_search_filter"
+            android:lines="1"
+            android:textColor="#eeee"
+            android:textColorHint="#aaaa"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:inputType=""
+             />
+
+        <!--取消按钮-->
+        <ImageView
+            android:id="@+id/image_search_clear"
+            android:layout_width="@dimen/dim_search_icon_size"
+            android:layout_height="@dimen/dim_search_icon_size"
+            android:clickable="true"
+            android:padding="@dimen/dim_search_icon_padding"
+            android:src="@drawable/ic_action_clear"
+            android:contentDescription="TODO"
+            android:focusable="true"/>
+    </LinearLayout>
+
+</LinearLayout>
+

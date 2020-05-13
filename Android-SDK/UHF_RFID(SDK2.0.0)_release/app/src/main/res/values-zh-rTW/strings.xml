@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    ~ *********************************************************************************
+    ~版權聲明
+    ~ *********************************************************************************
+    ~本公司既深圳市探索智慧科技有限公司，致力於物聯網領域應用科技的深度開發和研究.
+    ~公司覈心產品軟硬體均為自主研發，深耕行業多年，多項科技在行業內領先，甚至填補空白.
+    ~
+    ~以下原始程式碼為本公司開發，未經本公司許可，任何公司，個人，或組織，事業單位，不得使用，轉讓，租借，贈送，上傳，
+    ~或共亯此程式碼，一經發現，違者將承擔所有囙此程式碼帶來的各種損失和法律責任，違法必究，請大家遵守法律，尊重知識產權!
+    ~
+    ~本程式碼在不斷更新中，對於軟件程式碼，功能定義，系統架構難免存在不足之處，實際效果最終解釋權歸本公司.
+    ~有問題請與本公司迴響，用戶需要定制軟件或硬體介面，可以聯系本公司!
+    ~
+    ~公司：深圳市探索智慧科技有限公司
+    ~地址：深圳寶安西鄉航城工業區，智匯創新中心B座西607室.
+    ~作者：施探宇
+    ~電話：18680399436（同微信）QQ：190376601.
+    ~網店：https://shop479675916.taobao.com
+    ~
+    ~
+    -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">UHF RFID</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="string_about_content">深圳市探索智慧科技有限公司\n地址：深圳寶安西鄉航城工業區智匯創新中心B座西607.\n軟體支援- TEL:18680399436，施探宇\n硬體支持- TEL:18025331717，李天龍.\n店鋪：https ://shop479675916.taobao.com</string>
+
+    <string name="str_edit">編輯</string>
+
+    <string name="string_tag_read">讀取</string>
+
+    <string name="string_tag_write">寫入</string>
+
+    <string name="string_tag_lock">鎖定</string>
+
+    <string name="string_tag_kill">滅活</string>
+
+    <string name="string_tag_password">密碼</string>
+
+    <string name="string_tag_setup">設定</string>
+
+    <!--藍牙-->
+
+    <string name="str_ble_charact">特徵</string>
+
+    <string name="str_ble_descript">描述</string>
+
+    <string name="str_ble_device">設備</string>
+
+    <string name="str_ble_scan">掃描</string>
+
+    <string name="str_ble_services">服務</string>
+
+
+    <!--比較-->
+
+    <string name="str_list_compare">對比</string>
+
+    <string name="str_compare_percent">比例</string>
+    <string name="str_compare_total">統計</string>
+    <string name="str_compare_pcs">張</string>
+
+    <!--清單-->
+
+    <string name="str_list_index">序號</string>
+    <string name="str_list_epc">標籤</string>
+    <string name="str_list_times">次數</string>
+
+    <!--背景-->
+
+    <string name="str_back_highspeed">高速讀寫</string>
+    <string name="str_back_company">探索智慧</string>
+
+    <!--比較-->
+
+    <string name="str_compare_all">全部</string>
+    <string name="str_compare_lost">缺失</string>
+    <string name="str_compare_exist">現存</string>
+    <string name="str_compare_other">其他</string>
+
+    <!--內容-->
+
+    <string name="str_content_title">標籤</string>
+
+    <string name="str_location_title">定位</string>
+
+    <string name="str_logger_title">記錄</string>
+
+    <string name="str_version">版本</string>
+
+    <string name="str_company_name">深圳市探索智能科技有限公司</string>
+
+    <string name="str_main_signal">訊號</string>
+
+    <string name="str_db">dB</string>
+
+    <string name="str_main_total">統計</string>
+
+    <string name="str_main_pcs">張</string>
+
+    <string name="str_data">數據</string>
+
+    <string name="str_start">開始</string>
+
+    <string name="str_stop">停止</string>
+
+    <string name="str_setup">設定</string>
+
+    <string name="str_batwrite_title">批量寫標籤</string>
+
+    <string name="str_batwrite_prefix">首碼</string>
+
+    <string name="str_batwrite_data">數據</string>
+
+    <string name="str_batwrite_from">起始</string>
+
+    <string name="str_batwrite_width">寬度</string>
+    <string name="str_batwrite_endfix">尾綴</string>
+    <string name="str_batwrite_sel_all">全選</string>
+    <string name="str_batwrite_sel_invert">反選</string>
+    <string name="str_lost_title">報警測試</string>
+    <string name="rfid_infomation">RFID INFOMATION</string>
+    <string name="str_search_filter">過濾，查找</string>
+    <string name="str_about">關於</string>
+    <string name="str_ok">確定</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_other">其他</string>
+    <string name="str_info">提示</string>
+    <!--导出-->
+    <string name="str_export_to_path">匯出檔案生成到目錄</string>
+
+    <string name="str_export_to_csv_file">匯出數據CSV檔案</string>
+
+    <string name="str_this_is_a_tag_list_file">這一個RFID清單檔案</string>
+
+    <string name="str_error_no_email_service">沒有安裝郵件服務!</string>
+
+    <string name="str_error_no_qq_service">沒有安裝QQ服務!</string>
+
+    <string name="str_error_no_wx_service">沒有安裝微信服務!</string>
+
+
+    <!--比較-->
+
+    <string name="str_compare_init">已經放入資料庫</string>
+
+
+    <!--匯出選單-->
+
+    <string name="str_export_to_file">匯出到檔案</string>
+    <string name="str_export_to_email">匯出到郵件</string>
+    <string name="str_export_to_qq">匯出到QQ</string>
+    <string name="str_export_to_wx">匯出到微信</string>
+
+    <!--POST選單-->
+
+    <string name="str_data_post_in">提交入庫</string>
+    <string name="str_data_post_out">提交出庫</string>
+    <string name="str_data_post_sync">提交同步</string>
+
+    <!--比較選單-->
+
+    <string name="str_data_compare_init">放入數據</string>
+    <string name="str_data_compare_list">對比數據</string>
+
+    <!--分類統計-->
+
+    <string name="str_data_view_mode">分類/清單</string>
+
+    <!--完成-->
+
+    <string name="str_done">完成</string>
+    <string name="str_clean_msg">清空標籤清單!</string>
+    <string name="str_no_found_device_msg">沒發現讀寫設備，請先連接到讀寫設備!\n請在【設定】裡面設定[藍牙/網絡/串口]設備!</string>
+    <string name="str_no_connect_msg">設備沒有連接，請先連接設備!</string>
+    <string name="str_oprate">操作</string>
+    <string name="str_oprate_clean_one">清空此計數</string>
+    <string name="str_oprate_clean_all">清空全部計數</string>
+    <string name="str_oprate_delete_one">删除此標籤</string>
+    <string name="str_oprate_delete_all">删除全部標籤</string>
+
+    <!--常用設定-->
+
+    <string name="str_none">(空)</string>
+
+    <string name="str_open">打開</string>
+
+    <string name="str_close">關閉</string>
+
+    <string name="str_connect">連接</string>
+
+    <string name="str_disconnect">斷開</string>
+
+
+    <!--埠-->
+
+    <string name="str_setup_port_uart_baud">串列傳輸速率</string>
+
+
+    <!--網絡-->
+
+    <string name="str_setup_port_network_host">主機</string>
+
+    <string name="str_setup_port_network_port">埠</string>
+
+    <!--通用序列匯流排-->
+    <string name="str_setup_sdk">開發包</string>
+
+    <string name="str_setup_sdk_dialog">對話方塊</string>
+
+    <string name="str_setup_sdk_dialog_one">單按鈕對話方塊</string>
+
+    <string name="str_setup_sdk_dialog_two">雙按鈕對話方塊</string>
+
+    <string name="str_setup_sdk_dialog_more">多按鈕對話方塊</string>
+
+
+    <string name="str_setup_sdk_dialog_list">清單對話方塊</string>
+
+    <string name="str_setup_sdk_dialog_edit">輸入對話方塊</string>
+
+
+    <string name="str_setup_sdk_msgbox">提示框</string>
+
+    <string name="str_setup_sdk_msgbox_info">消息</string>
+
+    <string name="str_setup_sdk_msgbox_waring">警告</string>
+
+    <string name="str_setup_sdk_msgbox_error">錯誤</string>
+
+    <string name="str_setup_sdk_msgbox_success">成功</string>
+
+
+    <!--標籤-->
+
+    <string name="str_setup_sdk_tag">標籤</string>
+
+    <string name="str_setup_sdk_tag_one_loc">單標籤定位</string>
+
+    <string name="str_setup_sdk_tag_two_loc">雙標籤定位</string>
+
+    <string name="str_setup_sdk_tag_four_loc">四標籤定位</string>
+
+    <string name="str_setup_sdk_tag_inout">進出門測試</string>
+
+    <string name="str_setup_sdk_tag_lost">報警測試</string>
+
+    <string name="str_setup_sdk_tag_bat_write">批量寫標籤</string>
+
+
+    <!--POST-->
+
+    <string name="str_setup_post_in">入庫</string>
+
+    <string name="str_setup_post_out">出庫</string>
+
+    <string name="str_setup_post_sync">同步</string>
+
+
+    <!--POST參數-->
+
+    <string name="str_setup_host">網址</string>
+
+    <string name="str_setup_user">用戶</string>
+
+    <string name="str_setup_pass">密碼</string>
+
+
+    <string name="str_setup_export">匯出</string>
+
+
+    <string name="str_setup_export_format">格式</string>
+
+    <string name="str_setup_prefix">首碼</string>
+
+    <string name="str_setup_endfix">尾碼</string>
+
+
+    <!--區域-->
+    <string name="str_setup_region">區域</string>
+    <string name="str_setup_region_cn800">中國(800Mhz)</string>
+    <string name="str_setup_region_cn900">中國(900Mhz)</string>
+    <string name="str_setup_region_usa">美國</string>
+    <string name="str_setup_region_europe">歐洲</string>
+    <string name="str_setup_region_korean">韓國</string>
+
+    <!--排序-->
+
+    <string name="str_setup_sort">排序</string>
+
+    <string name="str_setup_sort_order">方向</string>
+
+    <string name="str_setup_sort_title">欄位</string>
+
+    <string name="str_setup_sort_a2z">昇冪</string>
+
+    <string name="str_setup_sort_z2a">降序</string>
+
+
+    <!--欄位-->
+
+    <string name="str_setup_sort_index">序號</string>
+
+    <string name="str_setup_sort_epc">名稱</string>
+
+    <string name="str_setup_sort_signal">訊號</string>
+
+    <string name="str_setup_sort_time">時間</string>
+
+    <string name="str_setup_sort_count">次數</string>
+
+
+    <string name="str_no_connect">未連接</string>
+
+
+    <string name="str_setup_antanna">天線</string>
+
+    <string name="str_setup_port">介面</string>
+
+    <string name="str_setup_uart">串口</string>
+
+    <string name="str_setup_ble">藍牙</string>
+
+    <string name="str_setup_network">網絡</string>
+
+    <string name="str_setup_usb">通用序列匯流排</string>
+
+    <string name="str_setup_instruction">指令</string>
+
+    <string name="str_setup_channel">通道</string>
+    <string name="str_setup_scan">掃描</string>
+    <string name="str_setup_per_second">每秒</string>
+    <string name="str_setup_times">次</string>
+    <string name="str_setup_inventory">輪詢</string>
+    <string name="str_setup_device">設備</string>
+    <string name="str_setup_skip_freq">跳頻</string>
+
+    <string name="str_setup_power">功率</string>
+    <string name="str_setup_effect">效果</string>
+    <string name="str_setup_sound">聲音</string>
+    <string name="str_setup_shake">震動</string>
+
+    <string name="str_setup_operate">操作</string>
+    <string name="str_setup_compare">比較</string>
+
+    <string name="str_setup_compare_init">初始化-放入資料庫</string>
+    <string name="str_setup_compare_error_msg">錯誤提示</string>
+    <string name="str_setup_compare_data_lost">數據不完整</string>
+    <string name="str_setup_compare_success_msg">成功提示</string>
+    <string name="str_setup_compare_data_full">數據完整</string>
+    <string name="str_setup_list">清單</string>
+
+    <string name="str_setup_filter">過濾</string>
+    <string name="str_setup_signal">訊號</string>
+    <string name="str_setup_tree">分類</string>
+    <string name="str_setup_root_name">根節點名</string>
+    <string name="str_setup_all">全部</string>
+    <string name="str_setup_tree_splite">分割符</string>
+    <string name="str_setup_contain_splite">包含分隔符號</string>
+
+    <string name="str_setup_display">顯示</string>
+    <string name="str_setup_display_invert">反向</string>
+    <string name="str_setup_other">其他</string>
+    <string name="str_setup_debug">調試</string>
+    <string name="str_setup_advanced">實驗室</string>
+    <string name="str_setup_about">關於</string>
+
+    <string name="str_setup_dialog_edit_text">輸入文字</string>
+    <string name="str_setup_msgbox_test">顯示消息測試</string>
+
+    <!--串口消息-->
+    <string name="str_msg_uart_open_success">串口打開成功!</string>
+    <string name="str_msg_uart_open_faild">串口打開失敗!</string>
+    <string name="str_msg_uart_open_error">串口打開錯誤!</string>
+    <string name="str_msg_uart_close_success">串口關閉成功!</string>
+    <string name="str_msg_uart_close_faild">串口關閉失敗!</string>
+
+    <!--網絡消息-->
+
+    <string name="str_msg_net_connect_to">連接網絡</string>
+    <string name="str_msg_net_disconnect">斷開網絡</string>
+
+    <!--設備消息-->
+
+    <string name="str_msg_open_device">打開設備</string>
+    <string name="str_msg_close_device">關閉設備</string>
+
+    <!--處理中-->
+
+    <string name="str_msg_processing">處理中</string>
+    <string name="str_msg_processed">處理完畢</string>
+
+    <!--TAG-->
+
+    <string name="str_msg_select_tag">選中標籤</string>
+    <string name="str_msg_read_tag">讀取標籤</string>
+    <string name="str_msg_write_tag">寫入標籤</string>
+    <string name="str_msg_lock_tag">鎖定標籤</string>
+    <string name="str_msg_kill_tag">滅活標籤</string>
+    <string name="str_msg_lost_tag">標籤遺失</string>
+    <string name="str_msg_write_failed">寫入標籤失敗</string>
+    <string name="str_msg_not_support">此版本不支持寫標籤</string>
+
+    <!--POST-->
+    <string name="str_msg_posting">提交中</string>
+    <string name="str_msg_post_done">提交成功</string>
+    <string name="str_msg_post_failed">提交失敗</string>
+
+    <string name="str_success">成功</string>
+
+    <string name="str_setup_volume">音量</string>
+    <string name="str_setup_effect_key">按键</string>
+    <string name="str_setup_effect_rfid">讀取標籤</string>
+    <string name="str_battery">电量</string>
+    <string name="str_volatile">电压</string>
+    <string name="str_setup_sw_interval">间隔</string>
+    <string name="str_setup_scan_mode">扫描模式</string>
+    <string name="str_session_mode_s0">S0</string>
+    <string name="str_session_mode_s1">S1</string>
+    <string name="str_session_mode_s2">S2</string>
+    <string name="str_session_mode_s3">S3</string>
+    <string name="str_session_mode_sl">SL</string>
+
+    <!--目标-->
+    <string name="str_session_target_a">A</string>
+    <string name="str_session_target_b">B</string>
+    <string name="str_session_target_auto">自动</string>
+
+    <!--会话-->
+    <string name="str_session_onoff">会话开关</string>
+    <string name="str_session_mode">会话模式</string>
+    <string name="str_session_target">会话目标</string>
+    <string name="str_switch_times">切换次数</string>
+    <string name="str_session_q_value">Q值</string>
+    <string name="str_setup_post_auto">自动</string>
+    <string name="str_setup_with_gps">定位</string>
+    <string name="str_setup_post_delay">延时</string>
+    <string name="str_delay_ms">毫秒</string>
+    <string name="str_power_dbm">dBm</string>
+    <string name="str_delay_times">次</string>
+    <string name="str_setup_pos_id">標识</string>
+    <string name="str_setup_contain">包含</string>
+    <string name="str_setup_display_refresh_count">刷新数量</string>
+    <string name="str_setup_display_refresh_delay">刷新间隔</string>
+    <string name="str_session_scan_time">扫描时间</string>
+    <string name="str_setup_sdk_dialog_user">自定义对话框</string>
+    <string name="str_session_invert_en">翻转有效</string>
+    <string name="str_session_invert_num">翻转条件</string>
+    <string name="str_session_invert">翻转</string>
+    <string name="str_setup_sdk_dialog_progress">显示进度对话框</string>
+    <string name="str_setup_display_text">显示文字</string>
+    <string name="str_kill_password">输入灭活密码</string>
+    <string name="str_play">播放</string>
+    <string name="str_setup_post_item">详情</string>
+    <string name="str_item_onoff">有效</string>
+    <string name="str_no_tag_times">次无标签</string>
+    <string name="str_setup_net_type">类型</string>
+    <string name="str_setup_config">配置</string>
+    <string name="str_config_power_save">省电模式</string>
+    <string name="str_boot_mode_ble">蓝牙</string>
+    <string name="str_boot_mode_wifi">无线网</string>
+    <string name="str_setup_action">动作</string>
+    <string name="str_config_read">读取配置</string>
+    <string name="str_config_write">写入配置</string>
+    <string name="str_config_mode">启动模式</string>
+    <string name="str_config_ssid">网络名称</string>
+    <string name="str_config_pwd">网络密码</string>
+    <string name="str_read_done">读取完毕</string>
+    <string name="str_write_done">写入完毕</string>
+
+</resources>

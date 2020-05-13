@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~   *********************************************************************************
+  ~   版  权  声  明
+  ~   *********************************************************************************
+  ~   本公司既深圳市探索智能科技有限公司,致力于物联网领域应用技术的深度开发和研究.
+  ~   公司核心产品软硬件均为自主研发,深耕行业多年,多项技术在行业内领先,甚至填补空白.
+  ~
+  ~   以下原始代码为本公司开发,未经本公司许可,任何公司,个人,或组织,事业单位,不得使用,转让,租借,赠送,上传,
+  ~   或共享此代码,一经发现,违者将承担所有因此代码带来的各种损失和法律责任,违法必究,请大家遵守法律,尊重知识产权!
+  ~
+  ~   本代码在不断更新中,对于软件代码,功能定义,系统架构难免存在不足之处,实际效果最终解释权归本公司.
+  ~   有问题请与本公司反馈,用户需要定制软件或硬件接口,可以联系本公司!
+  ~
+  ~   公司 : 深圳市探索智能科技有限公司
+  ~   地址 : 深圳宝安西乡航城工业区,智汇创新中心B座西607室.
+  ~   作者 : 施探宇
+  ~   电话 : 18680399436 (同微信) QQ : 190376601.
+  ~   网店 : https://shop479675916.taobao.com
+  ~
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">UHF RFID</string>
+    <string name="todo">TODO</string>
+    <string name="string_about_content">Tanso Company ShenZhen\n Address:Shenzhen BaoAn HangCheng Area Building 5B West Room 607.\n Software - TEL:18680399436, Aleck Shi\n Hardware - TEL:18025331717,Dragon Li.\n Web:https://shop479675916.taobao.com</string>
+
+    <string name="str_edit">Edit</string>
+
+    <string name="string_tag_read">Read</string>
+    <string name="string_tag_write">Write</string>
+    <string name="string_tag_lock">Lock</string>
+    <string name="string_tag_kill">Kill</string>
+    <string name="string_tag_password">Password</string>
+    <string name="string_tag_setup">Setup</string>
+
+    <!--蓝牙-->
+    <string name="str_ble_charact">Character</string>
+    <string name="str_ble_descript">Descript</string>
+    <string name="str_ble_device">Device</string>
+    <string name="str_ble_scan">Scan</string>
+    <string name="str_ble_services">Service</string>
+
+    <!--比较-->
+    <string name="str_list_compare">Compare</string>
+    <string name="str_compare_percent">Percent</string>
+    <string name="str_compare_total">Total</string>
+    <string name="str_compare_pcs">pcs</string>
+
+    <!--列表-->
+    <string name="str_list_index">IDX</string>
+    <string name="str_list_epc">EPC</string>
+    <string name="str_list_times">CNT</string>
+
+    <!--背景-->
+    <string name="str_back_highspeed">Hi-Speed</string>
+    <string name="str_back_company">TanSo</string>
+
+    <!--比较-->
+    <string name="str_compare_all">All</string>
+    <string name="str_compare_lost">Lost</string>
+    <string name="str_compare_exist">Exist</string>
+    <string name="str_compare_other">Other</string>
+
+    <!--内容-->
+    <string name="str_content_title">Tag</string>
+    <string name="str_location_title">Location</string>
+    <string name="str_logger_title">Logger</string>
+    <string name="str_version">Version</string>
+    <string name="str_company_name">Shenzhen Tanso Company</string>
+    <string name="str_main_signal">Signal</string>
+    <string name="str_db">dB</string>
+    <string name="str_main_total">Total</string>
+    <string name="str_main_pcs">pcs</string>
+    <string name="str_data">Data</string>
+    <string name="str_start">Start</string>
+    <string name="str_stop">Stop</string>
+    <string name="str_setup">Setup</string>
+    <string name="str_batwrite_title">Batch Write</string>
+    <string name="str_batwrite_prefix">Prefix</string>
+    <string name="str_batwrite_data">Data</string>
+    <string name="str_batwrite_from">From</string>
+    <string name="str_batwrite_width">Width</string>
+    <string name="str_batwrite_endfix">Endfix</string>
+    <string name="str_batwrite_sel_all">All</string>
+    <string name="str_batwrite_sel_invert">Invert</string>
+
+    <string name="str_lost_title">Lost Test</string>
+    <string name="rfid_infomation">RFID INFOMATION</string>
+    <string name="str_search_filter">Seek,Filter</string>
+    <string name="str_about">About</string>
+
+    <string name="str_ok">OK</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_other">Other</string>
+    <string name="str_info">Info</string>
+
+    <!--导出-->
+    <string name="str_export_to_path">Export To Path</string>
+    <string name="str_export_to_csv_file">Export CSV file</string>
+    <string name="str_this_is_a_tag_list_file">The RFID tag list</string>
+    <string name="str_error_no_email_service">No Email Service!</string>
+    <string name="str_error_no_qq_service">No QQ Service!</string>
+    <string name="str_error_no_wx_service">No WeChat Service!</string>
+
+    <!--比较-->
+    <string name="str_compare_init">Put List To Database</string>
+
+    <!--导出菜单-->
+    <string name="str_export_to_file">(csv)Export To File</string>
+    <string name="str_export_to_email">(csv)Export To Email</string>
+    <string name="str_export_to_qq">(csv)Export To QQ"</string>
+    <string name="str_export_to_wx">(csv)Export To WeChat</string>
+
+    <!--POST菜单-->
+    <string name="str_data_post_in">(json)Post IN</string>
+    <string name="str_data_post_out">(json)Post OUT</string>
+    <string name="str_data_post_sync">(json)Post SYNC</string>
+
+    <!--比较菜单-->
+    <string name="str_data_compare_init">(Compare)Put Into Database</string>
+    <string name="str_data_compare_list">(Compare)Compare To Database</string>
+
+    <!--分类统计-->
+    <string name="str_data_view_mode">(View)Tree / List</string>
+
+    <!--完成-->
+    <string name="str_done">Done</string>
+
+    <string name="str_clean_msg">Clean Tag List!</string>
+    <string name="str_no_found_device_msg">No Find RFID Device,Please Connect To Device First!\nFind The Device In Setup/Port Page!</string>
+    <string name="str_no_connect_msg">Device No Connect,Please Connect First!</string>
+
+    <string name="str_oprate">Operation</string>
+    <string name="str_oprate_clean_one">Clean Tag Count</string>
+    <string name="str_oprate_clean_all">Clean All Count</string>
+    <string name="str_oprate_delete_one">Delete The Tag</string>
+    <string name="str_oprate_delete_all">Delete All Tags</string>
+
+    <!--常用设置-->
+    <string name="str_none">(Nothing)</string>
+    <string name="str_open">Open</string>
+    <string name="str_close">Close</string>
+    <string name="str_connect">Connect</string>
+    <string name="str_disconnect">Disconnect</string>
+
+    <!--端口-->
+    <string name="str_setup_port_uart_baud">Baudrate</string>
+
+    <!--网络-->
+    <string name="str_setup_port_network_host">Host</string>
+    <string name="str_setup_port_network_port">Port</string>
+
+    <!--通用串行总线-->
+
+    <string name="str_setup_sdk">SDK</string>
+    <string name="str_setup_sdk_dialog">Dialog</string>
+    <string name="str_setup_sdk_dialog_one">Single Button Dialog</string>
+    <string name="str_setup_sdk_dialog_two">Two Buttons Dialogs</string>
+    <string name="str_setup_sdk_dialog_more">More Buttons Dialogs</string>
+
+    <string name="str_setup_sdk_dialog_list">List Dialog</string>
+    <string name="str_setup_sdk_dialog_edit">Text Edit Dialog</string>
+
+    <string name="str_setup_sdk_msgbox">MessageBox</string>
+    <string name="str_setup_sdk_msgbox_info">Info</string>
+    <string name="str_setup_sdk_msgbox_waring">Waring</string>
+    <string name="str_setup_sdk_msgbox_error">Error</string>
+    <string name="str_setup_sdk_msgbox_success">Success</string>
+
+    <!--标签-->
+    <string name="str_setup_sdk_tag">TAG</string>
+    <string name="str_setup_sdk_tag_one_loc">One TAG Location</string>
+    <string name="str_setup_sdk_tag_two_loc">Two TAGs Location</string>
+    <string name="str_setup_sdk_tag_four_loc">Four TAGs Location</string>
+    <string name="str_setup_sdk_tag_inout">In Out Test</string>
+    <string name="str_setup_sdk_tag_lost">Lost Check</string>
+    <string name="str_setup_sdk_tag_bat_write">Batch Write</string>
+
+    <!--POST-->
+    <string name="str_setup_post_in">Post IN</string>
+    <string name="str_setup_post_out">Post OUT</string>
+    <string name="str_setup_post_sync">Post SYNC</string>
+
+    <!--POST参数-->
+    <string name="str_setup_host">Host</string>
+    <string name="str_setup_user">User</string>
+    <string name="str_setup_pass">Password</string>
+
+    <string name="str_setup_export">Export</string>
+
+    <string name="str_setup_export_format">Format</string>
+    <string name="str_setup_prefix">Prefix</string>
+    <string name="str_setup_endfix">Endfix</string>
+
+    <!--区域-->
+    <string name="str_setup_region">Region</string>
+    <string name="str_setup_region_cn800">China(800Mhz)</string>
+    <string name="str_setup_region_cn900">China(900Mhz)</string>
+    <string name="str_setup_region_usa">U.S.A.</string>
+    <string name="str_setup_region_europe">Europe</string>
+    <string name="str_setup_region_korean">Korean</string>
+
+    <!--排序-->
+    <string name="str_setup_sort">Sort</string>
+    <string name="str_setup_sort_order">Order</string>
+    <string name="str_setup_sort_title">Field</string>
+    <string name="str_setup_sort_a2z">A to Z</string>
+    <string name="str_setup_sort_z2a">Z to A</string>
+
+    <!--字段-->
+    <string name="str_setup_sort_index">Index</string>
+    <string name="str_setup_sort_epc">Epc</string>
+    <string name="str_setup_sort_signal">Rssi</string>
+    <string name="str_setup_sort_time">Time</string>
+    <string name="str_setup_sort_count">Count</string>
+
+    <string name="str_no_connect">No Connect</string>
+
+    <string name="str_setup_antanna">Antanna</string>
+    <string name="str_setup_port">Port</string>
+    <string name="str_setup_uart">Uart</string>
+    <string name="str_setup_ble">Bluetooth</string>
+    <string name="str_setup_network">Network</string>
+    <string name="str_setup_usb">USB</string>
+    <string name="str_setup_instruction">Instruction</string>
+
+    <string name="str_setup_channel">Channel</string>
+
+    <string name="str_setup_scan">Scan</string>
+    <string name="str_setup_per_second">Per Second</string>
+    <string name="str_setup_times">Times</string>
+    <string name="str_setup_inventory">Inventory</string>
+    <string name="str_setup_device">Devices</string>
+    <string name="str_setup_skip_freq">Skip Freq</string>
+
+    <string name="str_setup_power">Power</string>
+    <string name="str_setup_effect">Effect</string>
+    <string name="str_setup_sound">Sound</string>
+    <string name="str_setup_shake">Shake</string>
+
+    <string name="str_setup_operate">Operation</string>
+    <string name="str_setup_compare">Compare</string>
+
+    <string name="str_setup_compare_init">Put Data To Database</string>
+    <string name="str_setup_compare_error_msg">Error Message</string>
+    <string name="str_setup_compare_data_lost">Data Lost</string>
+    <string name="str_setup_compare_success_msg">Success</string>
+    <string name="str_setup_compare_data_full">Data Full</string>
+
+    <string name="str_setup_list">List</string>
+
+    <string name="str_setup_filter">Filter</string>
+    <string name="str_setup_signal">Signal</string>
+
+    <string name="str_setup_tree">Tree</string>
+    <string name="str_setup_root_name">Root Name</string>
+    <string name="str_setup_all">All</string>
+    <string name="str_setup_tree_splite">Splite</string>
+    <string name="str_setup_contain_splite">Contain Splite</string>
+
+    <string name="str_setup_display">Display</string>
+    <string name="str_setup_display_invert">Invert</string>
+    <string name="str_setup_other">Other</string>
+    <string name="str_setup_debug">Logger</string>
+    <string name="str_setup_advanced">Advanced</string>
+    <string name="str_setup_about">About</string>
+
+    <string name="str_setup_dialog_edit_text">Input Text</string>
+    <string name="str_setup_msgbox_test">Test Message</string>
+
+    <!--串口消息-->
+    <string name="str_msg_uart_open_success">Open Port Success!</string>
+    <string name="str_msg_uart_open_faild">Open Port Failed!</string>
+    <string name="str_msg_uart_open_error">Open Port Error!</string>
+    <string name="str_msg_uart_close_success">close Port Success!</string>
+    <string name="str_msg_uart_close_faild">Close Port Failed!</string>
+
+    <!--网络消息-->
+    <string name="str_msg_net_connect_to">connect to</string>
+    <string name="str_msg_net_disconnect">disconnect</string>
+
+    <!--设备消息-->
+    <string name="str_msg_open_device">Open Device</string>
+    <string name="str_msg_close_device">Close Device</string>
+
+    <!--处理中-->
+    <string name="str_msg_processing">Processing</string>
+    <string name="str_msg_processed">Processed</string>
+
+    <!--TAG-->
+    <string name="str_msg_select_tag">Select TAG</string>
+    <string name="str_msg_read_tag">Read TAG</string>
+    <string name="str_msg_write_tag">Write TAG</string>
+    <string name="str_msg_lock_tag">Lock TAG</string>
+    <string name="str_msg_kill_tag">Kill TAG</string>
+    <string name="str_msg_lost_tag">TAG Lost</string>
+
+    <string name="str_msg_write_failed">Write Failed</string>
+    <string name="str_msg_not_support">Can\'t Support Version</string>
+    <!--POST-->
+    <string name="str_msg_posting">Posting</string>
+    <string name="str_msg_post_done">Post Done</string>
+    <string name="str_msg_post_failed">Post Failed</string>
+    <string name="str_success">Success</string>
+    <string name="str_setup_volume">Volume</string>
+    <string name="str_setup_effect_key">Pressed</string>
+    <string name="str_setup_effect_rfid">Read TAG</string>
+    <string name="str_battery">Battery</string>
+    <string name="str_volatile">Voltage</string>
+    <string name="str_setup_sw_interval">Interval</string>
+    <string name="str_setup_scan_mode">Scan Mode</string>
+
+    <!--会话模式-->
+    <string name="str_session_mode_s0">S0</string>
+    <string name="str_session_mode_s1">S1</string>
+    <string name="str_session_mode_s2">S2</string>
+    <string name="str_session_mode_s3">S3</string>
+    <string name="str_session_mode_sl">SL</string>
+
+    <!--目标-->
+    <string name="str_session_target_a">A</string>
+    <string name="str_session_target_b">B</string>
+    <string name="str_session_target_auto">Auto</string>
+
+    <!--会话-->
+    <string name="str_session_onoff">OnOff</string>
+    <string name="str_session_mode">Session</string>
+    <string name="str_session_target">Target</string>
+
+    <string name="str_switch_times">Switch Times</string>
+    <string name="str_session_q_value">Q Value</string>
+
+    <string name="str_setup_post_auto">Auto</string>
+    <string name="str_setup_with_gps">With GPS</string>
+    <string name="str_setup_post_delay">Delay</string>
+    <string name="str_delay_ms">ms</string>
+    <string name="str_power_dbm">dBm</string>
+    <string name="str_delay_times">tm</string>
+    <string name="str_setup_pos_id">ID</string>
+    <string name="str_setup_contain">Contain</string>
+    <string name="str_setup_display_refresh_count">Refresh Count</string>
+    <string name="str_setup_display_refresh_delay">Refresh Delay (ms)</string>
+    <string name="str_session_scan_time">Scan Time</string>
+    <string name="str_setup_sdk_dialog_user">User Dialog</string>
+    <string name="str_session_invert_en">Switch Enable</string>
+    <string name="str_session_invert_num">Switch A,B</string>
+    <string name="str_session_invert">Switch AB</string>
+    <string name="str_setup_sdk_dialog_progress">Show Progress</string>
+    <string name="str_setup_display_text">Text Mode</string>
+    <string name="str_kill_password">Input Kill Password</string>
+    <string name="str_play">Play</string>
+    <string name="str_setup_post_item">Information</string>
+    <string name="str_item_onoff">Enable</string>
+    <string name="str_no_tag_times">Times No Tag</string>
+    <string name="str_setup_net_type">Type</string>
+    <string name="str_setup_config">Config</string>
+    <string name="str_config_power_save">Power Save</string>
+    <string name="str_boot_mode_ble">BLE</string>
+    <string name="str_boot_mode_wifi">WIFI</string>
+    <string name="str_setup_action">Action</string>
+    <string name="str_config_read">Read</string>
+    <string name="str_config_write">Write</string>
+    <string name="str_config_mode">Mode</string>
+    <string name="str_config_ssid">SSID</string>
+    <string name="str_config_pwd">Password</string>
+    <string name="str_read_done">Read Done</string>
+    <string name="str_write_done">Write Done</string>
+    <string name="str_setup_4g">4G Config</string>
+    <string name="str_setup_con_type">Content Type</string>
+    <string name="str_setup_apn_name">APN</string>
+    <string name="str_setup_dev_name">Device Name</string>
+    <string name="str_setup_buffer">Buffer Name</string>
+    <string name="str_setup_buffer_start">Start</string>
+    <string name="str_setup_buffer_stop">Stop</string>
+    <string name="str_setup_buffer_clean">Clean</string>
+    <string name="str_setup_buffer_test">Test</string>
+
+</resources>

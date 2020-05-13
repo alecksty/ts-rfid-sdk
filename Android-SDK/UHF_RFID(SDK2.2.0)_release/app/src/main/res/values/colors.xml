@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~   *********************************************************************************
+  ~   版  权  声  明
+  ~   *********************************************************************************
+  ~   本公司既深圳市探索智能科技有限公司,致力于物联网领域应用技术的深度开发和研究.
+  ~   公司核心产品软硬件均为自主研发,深耕行业多年,多项技术在行业内领先,甚至填补空白.
+  ~
+  ~   以下原始代码为本公司开发,未经本公司许可,任何公司,个人,或组织,事业单位,不得使用,转让,租借,赠送,上传,
+  ~   或共享此代码,一经发现,违者将承担所有因此代码带来的各种损失和法律责任,违法必究,请大家遵守法律,尊重知识产权!
+  ~
+  ~   本代码在不断更新中,对于软件代码,功能定义,系统架构难免存在不足之处,实际效果最终解释权归本公司.
+  ~   有问题请与本公司反馈,用户需要定制软件或硬件接口,可以联系本公司!
+  ~
+  ~   公司 : 深圳市探索智能科技有限公司
+  ~   地址 : 深圳宝安西乡航城工业区,智汇创新中心B座西607室.
+  ~   作者 : 施探宇
+  ~   电话 : 18680399436 (同微信) QQ : 190376601.
+  ~   网店 : https://shop479675916.taobao.com
+  ~
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_block_bk" tools:keep="@color/color_block_bk">#0000</color>
+    <color name="color_block_line_color" tools:keep="@color/color_block_line_color">#aaa</color>
+    <color name="color_block_circle_bg" tools:keep="@color/color_block_circle_bg">#eee</color>
+    <color name="color_block_text" tools:keep="@color/color_block_text">#0a0</color>
+    <color name="color_main_group" tools:keep="@color/color_main_group">#777</color>
+
+    <!--调色盘-->
+    <color name="color_main_Primary" tools:keep="@color/color_main_Primary">#111</color>
+    <color name="color_main_PrimaryCenter" tools:keep="@color/color_main_PrimaryCenter">#333</color>
+    <color name="color_main_PrimaryDark" tools:keep="@color/color_main_PrimaryDark">#111</color>
+    <color name="color_main_PrimaryLine" tools:keep="@color/color_main_PrimaryLine">#7777</color>
+    <color name="color_main_PrimaryText" tools:keep="@color/color_main_PrimaryText">#777</color>
+    <color name="color_main_line" tools:keep="@color/color_main_line">#777</color>
+    <color name="color_ble_back_color">#aaa</color>
+    <color name="color_main_line_color">#777</color>
+    <color name="color_tab_bar_text_def">#ccc</color>
+    <color name="color_edit_b_text">#aaa</color>
+    <color name="color_edit_b_hint">#777</color>
+</resources>
