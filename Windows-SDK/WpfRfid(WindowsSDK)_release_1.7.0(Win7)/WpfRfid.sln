@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRfid", "WpfRfid.csproj", "{3782FCE1-E545-4DFD-8064-9FF01199B7B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D17A4ED-70DC-44D7-A6F5-20F2F2A41A14} = {1D17A4ED-70DC-44D7-A6F5-20F2F2A41A14}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3782FCE1-E545-4DFD-8064-9FF01199B7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3782FCE1-E545-4DFD-8064-9FF01199B7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3782FCE1-E545-4DFD-8064-9FF01199B7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3782FCE1-E545-4DFD-8064-9FF01199B7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C90485B-DD32-4FD6-B03D-797026720121}
+	EndGlobalSection
+EndGlobal
