@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfRfid.exe" size="659408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfRfid.exe" size="660432">
       <assemblyIdentity name="WpfRfid" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+YqsWYayaMKwkbqV0iYvRjMKyOtNTDB1qvFU40LbzGo=</dsig:DigestValue>
+        <dsig:DigestValue>aX3NAZ8i/jCxF78BLB0EYhQT3Ln7bwHiSwmEyGU+oA0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

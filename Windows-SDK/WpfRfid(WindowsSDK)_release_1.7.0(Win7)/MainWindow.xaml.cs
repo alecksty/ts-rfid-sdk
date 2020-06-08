@@ -2342,11 +2342,13 @@ namespace WpfRfid
         #endregion
 
 
+        ///-------------------------------------------------------------------------------------------------------------
         /// <summary>
         /// 对话框
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        ///-------------------------------------------------------------------------------------------------------------
         private void btnLostList_Click(object sender, RoutedEventArgs e)
         {
             //  管理器
@@ -2374,6 +2376,13 @@ namespace WpfRfid
             }
         }
 
+        ///-------------------------------------------------------------------------------------------------------------
+        /// <summary>
+        /// 菜单
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        ///-------------------------------------------------------------------------------------------------------------
         private void menu_clear_Click(object sender, RoutedEventArgs e)
         {
             listMsgs.Clear();
