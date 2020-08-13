@@ -1,0 +1,12 @@
+
+1.USB
+	使用linux下面的USB接口，需要src/lib目录下面
+	libNativeUsb.so，复制到/lib,/lib64下面。
+2.UART
+	使用linux下面的串口，需要src/lib目录下面
+	libNativeUart.so，复制到/lib,/lib64下面。
+
+
+施探宇
+深圳市探索智能科技有限公司
+2020年8月3日
