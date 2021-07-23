@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tsrfid:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tsrfid_jar</output-path>
+    <root id="archive" name="tsrfid.jar">
+      <element id="module-output" name="tsrfid" />
+      <element id="module-output" name="RfidLib" />
+    </root>
+  </artifact>
+</component>

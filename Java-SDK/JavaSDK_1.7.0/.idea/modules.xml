@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JUsbMan/JUsbMan.iml" filepath="$PROJECT_DIR$/JUsbMan/JUsbMan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tsrfid.iml" filepath="$PROJECT_DIR$/tsrfid.iml" />
+    </modules>
+  </component>
+</project>

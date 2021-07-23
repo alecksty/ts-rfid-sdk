@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RfidLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../sdk/RfidLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

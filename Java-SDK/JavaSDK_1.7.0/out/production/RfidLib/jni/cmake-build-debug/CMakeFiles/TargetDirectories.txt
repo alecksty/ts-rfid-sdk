@@ -1,0 +1,3 @@
+C:/Share/tsrfid/RfidLib/src/jni/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Share/tsrfid/RfidLib/src/jni/cmake-build-debug/CMakeFiles/jni.dir
+C:/Share/tsrfid/RfidLib/src/jni/cmake-build-debug/CMakeFiles/rebuild_cache.dir
